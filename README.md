@@ -1,5 +1,6 @@
 # Desafio Final
-Este projeto se trata de um site portfólio usado como galeria para projetos pessoais.
+Projeto de um site portfólio para projetos desenvolvidos na disciplina de Desenvolvimento de Web.
+
 Link de acesso:
 https://edsonmartinss.github.io/final/
 ## Tecnologias utilizadas
