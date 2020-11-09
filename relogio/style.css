@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+  background: black;
+}
+
+.relogio{
+  font-size: 80px;
+  font-family: Montserrat;
+  color: #edf0f1;
+  text-align: center;
+  margin-top: 200px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 600px;
+  margin-right: 600px;
+  padding: 20px;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body{
+    background-color: #141414;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #edf0f1;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.form{
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+  
+form{
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 40px;
+    border-radius: 10px;
+}
+  
+label{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #edf0f1;
+    display: block;
+
+    width: 100%;
+  }
+  
+input, textarea{
+    color: #edf0f1;
+    font-family: Raleway;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #81b29a;
+    background-color: #242a28;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+input:focus{
+    border: 2px solid #edf0f1;
+}
+
+#save{
+    font-family: Raleway;
+    color: black;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background: #81b29a;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#save:hover{
+    color: black;
+    background: #edf0f1;
+    transition: all 0.3s ease 0s;
+}
+
+.table{
+    font-family: Montserrat;
+}
+
+.contacts{
+    font-family: Raleway;
+    color: #edf0f1;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #81b29a;
+    background-color: #242a28;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    max-width: 850px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
