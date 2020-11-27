@@ -1,21 +1,21 @@
 const cacheName = "Portfolio-v1"
 const files = {
-  '/final/'
-  '/final/index.html'
-  '/final/styles.css'
-  '/final/script.js'
-  '/final/project.css'
-  '/final/project.js'
-  '/final/project1.html'
-  '/final/project2.html'
-  '/final/project3.html'
-  '/final/project4.html'
-  '/final/project5.html'
-  '/final/project6.html'
-  '/final/favicon.png'
-  'https://code.jquery.com/jquery-3.2.1.slim.min.js'
-  'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js'
-  'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js'
+  '/final/',
+  '/final/index.html',
+  '/final/styles.css',
+  '/final/script.js',
+  '/final/project.css',
+  '/final/project.js',
+  '/final/project1.html',
+  '/final/project2.html',
+  '/final/project3.html',
+  '/final/project4.html',
+  '/final/project5.html',
+  '/final/project6.html',
+  '/final/favicon.png',
+  'https://code.jquery.com/jquery-3.2.1.slim.min.js',
+  'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
+  'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
   'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
 }
 
