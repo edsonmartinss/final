@@ -4,7 +4,7 @@
   "name":"Portfolio EL",
   "short_name":"AF",
   "start_url":"https://edsonmartinss.github.io/final/",
-  "display":"minimal-ui",
+  "display":"standalone",
   "scope":"/final/",
   "background_color":"#81b29a",
   "theme_color":"#81c29a",
