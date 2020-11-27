@@ -1,0 +1,28 @@
+{
+  "lang":"pt-BR",
+  "dir":"ltr",
+  "name":"Portfolio EL",
+  "short_name":"AF",
+  "start_url":"https://edsonmartinss.github.io/final/",
+  "display":"minimal-ui",
+  "scope":"/final/",
+  "background_color":"#81b29a",
+  "theme_color":"#81b29g",
+  "orientation":"portrait",
+  "description":"Site de Portiflio de trabalhos",
+  "icons": [
+    {
+      "src":"images/icone 1.png",
+      "sizes":"192x192",
+      "type":"image/png",
+    },
+    {
+      "src":"images/icone 2.png",
+      "src":"",
+      "sizes":"512x512",
+      "type":"image/png",
+    },
+  ],
+  "related_applications": [],
+  "prefer_related_aplications": false,
+}
