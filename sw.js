@@ -1,6 +1,6 @@
 const cacheName = "Portfolio-v1"
 const files = {
-  '/final/',
+  '/final/'
   '/final/index.html',
   '/final/styles.css',
   '/final/script.js',
