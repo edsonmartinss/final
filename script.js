@@ -1,6 +1,9 @@
 const doc = document;
 const menuOpen = doc.querySelector(".menu");
 const menuClose = doc.querySelector(".close");
+const menuClosep = doc.querySelector(".close-p");
+const menuCloses = doc.querySelector(".close-s");
+const menuClosec = doc.querySelector(".close-c");
 const overlay = doc.querySelector(".overlay");
 
 menuOpen.addEventListener("click", () => {
@@ -8,6 +11,18 @@ menuOpen.addEventListener("click", () => {
 });
 
 menuClose.addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
+});
+
+menuClosep.addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
+});
+
+menuCloses.addEventListener("click", () => {
+  overlay.classList.remove("overlay--active");
+});
+
+menuClosec.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
 

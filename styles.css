@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 20px 10%;
   background-color: #141414;
   position: fixed;
 	z-index: 1;
@@ -254,12 +254,18 @@ header {
   justify-content: center;
 }
 
-.card{
+.cardi{
   padding: 0 60px 50px;
+  background-color: #81b29a;
+  border: 0;
 }
 
 a{
   text-decoration: none;
+}
+
+a: hover{
+  text-decoration: none !important;
 }
 
 #title{
@@ -275,6 +281,7 @@ a{
   color: #141414;
   font-family: Montserrat;
   transition: all 0.3s ease 0s;
+  text-decoration: none !important;
 }
 
 #img{
