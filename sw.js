@@ -1,5 +1,5 @@
 const cacheName = "Portfolio-v1"
-const files = {
+const files = [
   '/final/',
   '/final/index.html',
   '/final/styles.css',
@@ -17,7 +17,7 @@ const files = {
   'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
   'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
   'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'
-}
+]
 
 self.addEventListener('install', function(evt){
   console.log("install sw");
