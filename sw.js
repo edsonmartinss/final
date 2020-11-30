@@ -12,7 +12,7 @@ const files = [
   '/final/project4.html',
   '/final/project5.html',
   '/final/project6.html',
-  '/final/favicon.png',
+  '/final/favicon.ico',
   'https://code.jquery.com/jquery-3.2.1.slim.min.js',
   'https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js',
   'https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js',
