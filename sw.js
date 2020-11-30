@@ -20,6 +20,7 @@ const files = {
 }
 
 self.addEventListener('install', function(evt){
+  console.log("install sw");
   evt.waitUntil(
     caches.open(cacheName).then(function(cache){
       console.log('colocando arquivos na cache')
@@ -30,12 +31,13 @@ self.addEventListener('install', function(evt){
 
 self.addEventListener('activate', function(evt){
     console.log("activate sw");
+
 })
 
 self.addEventListener('fetch', function(evt){
     console.log("fetch sw");
       evt.responseWith(
-        cache.match(evt.request).then(function(res){
+        caches.match(evt.request).then(function(res){
           return res || fetch(evt.request)
         })
     )
